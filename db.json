@@ -1,5 +1,14 @@
 {
-"content": [
+  "status": 200,
+  "message": null,
+  "response": {
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8080/api/timesheet/users/fetchAll?page=0&size=10"
+      }
+    ],
+    "content": [
       {
         "id": 1,
         "userName": "Sabari Sampath",
@@ -104,6 +113,13 @@
         "modifiedDateTime": null,
         "currentOrgId": null,
         "links": []
-      },
+      }
     ],
+    "page": {
+      "size": 10,
+      "totalElements": 7,
+      "totalPages": 1,
+      "number": 0
+    }
+  }
 }
